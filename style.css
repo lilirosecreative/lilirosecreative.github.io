@@ -1,0 +1,1424 @@
+/*GENERAL*/
+.container-fluid {padding-right:0px;
+margin-right:0px;
+margin-left:0px;
+padding-left:0px;}
+
+.body {font-size:16pt;
+font-family: bilo;
+text-shadow:none;}
+
+a:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  position: absolute;
+  background: #ea3293;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;}
+
+a:hover:after { 
+  width: 100%; 
+    left: 0; }
+
+ a {display: inline-block;
+  padding: 15px 20px;
+  position: relative;}
+
+a:hover {text-decoration:none;
+color:#ea3293; }
+
+.btn {background-color:#79E0D8;
+border-color: #79E0D8;
+border-radius: 25px;
+font-family:bilo;
+font-size:1.25em;
+font-weight:600;}
+
+/*HEADER*/
+a.logo:hover:after { 
+  width: 0%;}
+
+.navbar-brand {color:#79E0D8;
+font-family: dazzle-unicase, sans-serif;
+font-weight: 500;
+font-style: normal;
+    font-size:1.5em;
+    background-color:black;
+opacity:70%;}
+
+.navbar {padding-top:2.5%; }
+
+.nav-button {color:#79E0D8;
+    font-family: bilo;
+    font-weight: 400;
+    font-size:1.25em;}
+
+div#myNavbar.collapse.navbar-collapse {padding-left:0%;}
+
+a.nav-button:hover::after {width:0px;}
+
+.navbar-brand:focus, .navbar-brand:hover {color:#ea3293;}
+
+.nav > li > a:focus, .nav > li > a:hover {background-color:black;
+color:#ea3293;}
+
+li {padding-left:25px;}
+
+.navbar-collapse {padding-left:68%;}
+
+.icon-bar {background-color:white;}
+
+
+/*FOOTER*/
+.footer-content {text-align:center;
+color:white;;
+font-family:bilo;}
+
+.footer-contact-title {font-family:bilo;
+font-weight:600;
+color:#FBDCEA;
+text-align:center;
+padding-top:2%;}
+
+.footer-background {background-color:black;}
+
+.footer-email {color:white;
+font-family:bilo;
+text-align:center;}
+
+p.footer-email {margin-bottom:0px;}
+
+.footer-copyright {color:white;
+    font-size:0.875em;
+    text-align:center;}
+
+a.social-media-icons:hover:after {width:0%;}
+
+.social-media-icons {color:#79E0D8;
+padding-bottom:3%;}
+
+.social-media-icons:hover {color:#ea3293;}
+
+
+/*HOMEPAGE*/
+.home-page-arrow {width:50px;}
+
+.header {background-color:black;}
+
+.section-one-background-homepage {background-color:black;}
+
+.text-carousel {color:white;
+    font-size:3.8em;
+    font-family: bilo;
+    font-weight: 600;
+    padding-top: 10%;
+    padding-left:10%;
+padding-bottom:2%;}
+
+.tagline-text {font-size:1.25em;
+    color:white;
+    font-weight:400;
+    font-family:bilo}
+    
+.call-to-action {font-family:bilo;
+    font-size:1.25em;
+    color:#79E0D8;
+    font-weight:600;}
+
+.arrow {padding-left:12%;}
+
+a.call-to-action {padding-left:0px;}
+
+.section-two-background-image-homepage {background:url(images/section-2-background.png);
+background-size:cover;
+    background-repeat:no-repeat;
+padding-bottom:12%;}
+
+.section-two-background-homepage {background-color:#FBDCEA;}
+
+.grid {padding-top:7%;
+    display:grid;
+     grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+padding-bottom:5%;}
+
+.black-rectangle {grid-column: 1/ span 10;
+grid-row: 1/ span 10;}
+
+.portrait-image {grid-column: 2/ span 10;
+grid-row: 2/ span 10;}
+
+.the-designer-title {font-family:bilo;
+font-size:2.25em;
+text-align: right;
+padding-top:20%;
+    padding-bottom:10px;
+font-weight:600;
+color:black;}
+
+a.the-designer-title {display: block;}
+
+a.the-designer-title:hover::after {width:0px;}
+
+.the-designer-body-text {font-family:bilo;
+font-size:1.25em;
+text-align:right;
+color:black;
+    font-weight:400;
+    padding-top:10px;
+    padding-right:10%;}
+
+.bottom-spacing {padding-bottom:12%;}
+    
+.the-designer-button {float:right;
+margin-right:10%;}
+
+a.the-designer-button:hover:after {width:0%;}
+
+a.the-designer-button:hover {color:white;
+background-color:#ea3293;
+border-color:#ea3293 }
+
+.section-three-background-image-homepage {background:url(images/section-3-background.png);
+background-size:cover;
+    background-repeat:no-repeat;
+padding-bottom:10%;}
+
+.projects-title-homepage {font-family:bilo;
+font-size:2.25em;
+padding-top:5%;
+    padding-bottom:3%;
+font-weight:600;
+color:black;}
+
+a.projects-title-homepage:hover::after {width:0px;}
+
+.article-button-one {margin-left:5%;
+    padding-left:0px;
+    padding-top:10%;
+    font-family:bilo;
+    font-size:1.25em;
+    color:#79E0D8;
+    font-weight:600;}
+
+.article-image-one {padding-bottom:15%;}
+
+.black-rectangle-article {background:url(images/black-rectangle-article.png);
+background-size:cover;
+    background-repeat:no-repeat;
+padding-bottom:3%;
+margin-bottom:4%;}
+
+.grid-two { display:grid;
+     grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+padding-top:5%;
+padding-right:5%;}
+
+.FAC-laptop-superimpose {grid-column: 1/ span 9;
+grid-row: 2/ span 10;
+z-index:99;}
+
+a.img-buttons.FAC-laptop-superimpose {padding:0px;}
+
+.pink-rectangle {grid-column: 2/ span 10;
+grid-row: 1/ span 10;
+z-index:1;}
+
+.article-body-text-two {font-family:bilo;
+font-size:1.25em;
+color:white;
+font-weight:400;
+    padding-left:10%;}
+
+.article-button-two {
+    margin-left:10%;
+    font-family:bilo;
+    font-size:1.25em;
+    color:#79E0D8;
+    font-weight:600;
+padding-left:0px;
+padding-top:3%;}
+
+.phone-mockup-image {padding-bottom: 12%;}
+
+.more-projects-button {margin:auto;
+        display:flex;
+        justify-content: center;
+height: 45px;
+    width:150px;
+margin-bottom:10%;
+margin-top:10%}
+
+a.more-projects-button:hover:after {width:0%;}
+
+a.more-projects-button:hover {color:white;
+background-color:#ea3293;
+border-color:#ea3293 }
+
+.img-buttons:hover:after {width:0%;}
+
+
+/*PROJECTS PAGE*/
+.projects-page-case-study-one-title {color:#EF9BC3;
+    padding-left:5%;
+padding-top:10%;}
+
+.projects-page-case-study-one-body {color:black;
+padding-left:5%;
+padding-top:5%;}
+
+.projects-page-grid-one {display:grid;
+     grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+margin-bottom:5%;}
+
+.projects-page-article-two-pink-rectangle {grid-column: 1/ span 9;
+grid-row: 1/ span 9;
+z-index:1;}
+
+.projects-page-case-study-two-title {color:black;
+padding-left:5%;
+padding-top:7%;
+padding-right:5%;}
+
+.projects-page-image-four {padding-top:5%;
+padding-top:10%;}
+
+.projects-page-image-two {grid-column: 2/ span 10;
+grid-row: 2/ span 10;
+z-index:2;
+padding:0px;}
+
+.projects-page-case-study-four-title {color:#FBDCEA;
+    padding-left:10%;
+padding-top:15%;
+padding-bottom:5%;}
+
+.filterDiv {
+  display: none; /* Hidden by default */
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+    display: block;}
+
+
+/*ABOUT*/
+.about-hero-image {background:url(images/about-hero-image.png);
+background-size:cover;
+    background-repeat:no-repeat;
+padding-bottom:50%;}
+
+.about-body-one {color:white;
+padding-top:25%;}
+
+.about-image-one {padding-top:15%;
+padding-bottom:15%;}
+
+.vl {border-left: 1px solid black;
+  height: 400px;}
+
+.about-skills-list {padding-bottom:10%;
+padding-top:2%;}
+
+.about-contact-buttons {font-family: bilo;
+font-weight: 500;
+font-size:1.125em;
+color:#79E0D8;
+display: block;
+padding-left:0px;}
+
+.about-how-can-i-help-you-heading {padding-top:1.5%;
+color:#EF9BC3;}
+
+
+/*CASE STUDY PAGES*/
+.case-study-main-title {font-family:bilo;
+color:white;
+text-align:center;
+font-size:2.5em;
+font-weight:600;
+padding-top:3%;}
+
+.project-captions {color:white;
+text-align:center;
+padding-bottom:1%;
+padding-top:2%;}
+
+a.casestudy-nav-hover:hover::after {width:0;}
+
+.casestudy-nav-li {display:inline;}
+
+.casestudy-nav-li a {color:#79E0D8;
+font-size:1.125em;
+font-weight:500;
+font-family:bilo;}
+
+.casestudy-nav-li a:hover {color:#ea3293;
+cursor: pointer;}
+
+ul.casestudy-nav-ul {padding-bottom:1%;
+padding-top:1%;
+text-align:center;
+    padding-left:0px;
+margin-bottom:0px;}
+    
+.case-study-nav-background {
+position:sticky;
+top:0;
+z-index:99;}
+
+li.casestudy-nav-li {background-color:black;
+padding-top:15px;
+padding-bottom:15px;}
+
+.case-study-border-radius-one {border-bottom-left-radius: 30px;
+border-top-left-radius: 30px;}
+
+.case-study-border-radius-two {padding-right:25px;
+border-bottom-right-radius: 30px;
+border-top-right-radius: 30px;}
+
+.black-background-colour {background-color:black;}
+
+.process-headings {font-size:1.875em;
+font-family:bilo;
+font-weight:600;
+text-align:center}
+
+.body-text {font-family: bilo;
+font-size: 1.25em;
+font-weight:400;}
+
+.image-captions {font-size:0.75em;
+font-weight:400;
+font-family:bilo;}
+
+.white-background-colour {background-color:white;}
+
+.activity-headings {font-size:1.5625em;
+font-family:bilo;
+font-weight:600;}
+
+.empathy-map-questions {font-family:bilo;
+font-size:1.25em;
+font-weight:500;
+color:black;}
+
+.sub-headings {font-family:bilo;
+font-size:1.375em;
+font-weight:600;}
+
+.pink-background-image {background:url(images/section-2-background.png);
+background-size:cover;
+    background-repeat:no-repeat;
+padding-bottom:13%;}
+
+.pink-background-colour {background-color:#FBDAEA;}
+
+.black-background-image {background:url(images/black-background.png);
+background-size:cover;
+    background-repeat:no-repeat;
+padding-bottom:13%;}
+
+.go-top-top-icon {
+padding-left:10px;}
+
+a.go-top-top-icon:hover {color:#ea3293;
+cursor: pointer}
+
+.go-to-top-button {
+    margin-right:30px;
+    font-family: bilo;
+    font-size: 1em;
+    color:#79E0D8;
+    font-weight:600;
+	position: fixed;
+	bottom: 2em;
+	right: 2em;
+	text-decoration: none;
+	font-size: 12px;
+	padding: 1em;
+	display: none;
+cursor: pointer}
+
+.next-project-button {display: block;
+  margin-left: auto;
+  margin-right: auto;
+    color:#79E0D8;
+    font-family: bilo;
+    font-weight:600;
+ font-size: 1.25em;
+text-align: center;
+margin-bottom:10%;
+    margin-top:10%;}
+
+.next-project-icon {margin-left:10px;}
+
+
+/*WASTE MANAGEMENT */
+.waste-management-hero-image {background:url(images/coffee-cup-mockup.png);
+background-size:cover;
+    background-repeat:no-repeat;
+padding-bottom:40%;}
+
+.waste-management-the-problem-heading {padding-top:7%;
+color:white;}
+
+.waste-management-the-problem-body {
+padding-bottom:5%;
+padding-top:3%;
+text-align: center;
+color:white;}
+
+.old-recycling-posters { display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+grid-column: 1/ span 10;
+grid-row: 1/ span 10}
+
+.image-caption-old-bin-signage {color:white;
+grid-column: 5/ span 10;
+grid-row: 1/ span 10;
+padding-left:4%;
+padding-top:4%;}
+
+.grid-murdoch-signage {display:grid;
+     grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+padding-bottom:4%;}
+
+.waste-management-research-heading {;color:black;
+margin-bottom:0px;
+padding-bottom:2%;}
+
+.waste-management-research-body {color:black;
+text-align: center;}
+
+.waste-management-personas-heading {padding-top:10%;
+color:#EF9BC3;}
+
+.waste-management-personas-body {padding-bottom:1%;
+color:black;}
+
+.waste-management-persona-images {padding-top:2%;}
+
+.waste-management-empathy-maps-heading {padding-top:25%;
+color:#EF9BC3;}
+
+.waste-management-empathy-maps-body {padding-bottom:2%;
+color:black}
+
+.waste-management-empathy-map-questions {padding-bottom:1%;
+padding-top:1%;
+padding-right:10%;}
+
+.waste-management-empathy-maps-body-two {padding-top:2%;
+color:black;}
+
+.waste-management-empathy-map-image {padding-top:22%;}
+
+.waste-management-competitor-analysis-heading {padding-top:10%;
+color:#EF9BC3;}
+
+.waste-management-competitor-analysis-body {color:black;}
+
+.waste-management-competitor-analysis-one-title {color:black;
+    padding-top:5%;
+padding-bottom:1%;}
+
+.waste-management-competitor-analysis-image-captions {padding-top:1%;}
+
+.waste-management-competitor-analysis-one-body {padding-top:1%;
+color:black;
+padding-bottom:1%;}
+
+.waste-management-competitor-analysis-three-body {padding-top:2%;
+padding-bottom:5%;
+color:black;}
+
+.waste-management-competitor-analysis-three-image {padding-top:7%;}
+
+.waste-management-visual-investigation-heading {color:black;
+margin-bottom:0px;
+padding-bottom:2%;}
+
+.waste-management-visual-investigation-body {color:black;
+text-align: center;}
+
+.waste-management-brainstorm-heading {color:black;
+padding-top:7%;}
+
+.waste-management-brainstorm-body {padding-top:1%;
+color:black;}
+
+.waste-management-brainstorm-images {padding-top:5%;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+    width: 85%;}
+
+.waste-management-brand-and-identity-summary-heading {color:black;
+padding-top:45%;}
+
+.waste-management-brand-and-identity-summary-body {padding-top:2%;
+color:black;}
+
+.waste-management-brand-and-identity-summary-image {padding-top:20%;}
+
+.waste-management-development-heading {color:white;
+margin-bottom:0px;
+padding-bottom:2%;}
+
+.waste-management-development-body {text-align: center;
+color:white;}
+
+.waste-management-colour-heading {color:#FBDAEA;
+padding-top:18%;}
+
+.waste-management-colour-scheme-image {padding-top:27%;}
+
+.waste-management-typography-image {padding-top:20%;}
+
+.waste-management-colour-body {color:white;}
+
+.waste-management-graphics-drawing-image {padding-top:7%;}
+
+.waste-management-layout-heading {color:#FBDAEA;
+padding-top:7%;}
+
+.waste-management-layout-drawing-image {display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;}
+
+.waste-management-the-bin-signage-heading {color:#EF9BC3;
+padding-top:7%;}
+
+.waste-management-landfill-poster-image {padding-top:5%;
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;}
+
+.student-portal-touchpoint-image {padding-top:25%;
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;}
+
+.waste-management-touchpoints-heading {color:#EF9BC3;
+padding-top:30%;}
+
+.waste-management-posters-title {color:black;
+    padding-top:7%;
+padding-bottom:1%;}
+
+.waste-management-food-containers-images {padding-bottom:10%;
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;}
+
+
+/*HIDDEN TREASURES*/
+.hidden-treasues-hero-image {background:url(images/hidden-treasures-hero-image.jpg);
+background-size:cover;
+    background-repeat:no-repeat;
+padding-bottom:40%;}
+
+.hidden-treasures-the-problem-heading {padding-top:7%;
+color:white;
+padding-bottom:3%;}
+
+.hidden-treasures-the-problem-body {padding-bottom:1%;
+text-align: center;
+color:white;}
+
+.hidden-treasures-project-objectives-heading {color:#FBDAEA;
+padding-top:7%;}
+
+.hidden-treasures-project-objectives-body {text-align: center;
+color:black;
+grid-column: 1/ span 3;
+grid-row: 3/ span 4;
+padding-left:5%;
+padding-right:5%;}
+
+.hidden-treasures-objective-one-grid {display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 1fr);}
+
+.hidden-treasures-project-objective-image-one {grid-column: 1/ span 3;
+grid-row: 1/ span 5;}
+
+.hidden-treasures-personas-heading {color:black;
+text-align:right;
+padding-top:5%;}
+
+.hidden-treasures-personas-body {text-align:right;}
+
+.hidden-treasures-competitor-analysis-one-body {padding-top:12%;}
+
+.hidden-treasures-competitor-analysis-two-body {padding-top:7%;}
+
+.hidden-treasures-competitor-analysis-three-body {padding-top:10%;}
+
+.hidden-treasures-empathy-maps-heading {padding-top:12%;
+color:#EF9BC3;}
+
+.hidden-treasures-empathy-maps-body-two {padding-top:1%;}
+
+.hidden-treasures-visual-investigation-image {padding-top:15%;}
+
+.hidden-treasures-visual-investigation-heading {padding-top:30%;
+color:black;}
+
+.visual-investigation-brand-and-identity-summary-image {padding-top:5%;
+padding-bottom:5%;}
+
+.hidden-treasures-brand-and-identity-summary-heading {padding-top:30%;
+color:black;}
+
+.hidden-treasures-colour-scheme-image {padding-top:10%;}
+
+.hidden-treasures-grid-images {padding-top:15%;}
+
+.hidden-treasures-grids-captions {color:white;
+padding-top:5%;}
+
+.hidden-treasures-content-collection-heading {font-family: bilo;
+text-align: center;
+font-size: 1.5625em;
+color:white;
+font-weight:600;
+padding-top:7%;}
+
+.hidden-treasures-images-heading {padding-top:7%;
+color:#FBDAEA;}
+
+.hidden-treasures-images-body-two {padding-bottom:3%;}
+
+.hidden-treasures-image-qualities-image-one-caption {padding-top:1%;
+color:white;}
+
+.hidden-treasures-graphics-image {padding-top:30%;}
+
+.hidden-treasures-layout-images {padding-bottom:40%;
+padding-top:15%;}
+
+.hidden-treasures-final-book-images {padding-bottom:5%;}
+
+
+/*ACUNE SKINCARE*/
+.acune-hero-image {background:url(images/acune-hero-image.jpg);
+background-size:cover;
+    background-repeat:no-repeat;
+padding-bottom:50%;}
+
+.acune-personas-heading {color:#EF9BC3;
+text-align:right;
+padding-top:7%;}
+
+.acune-personas-body {color:black;
+text-align:right;}
+
+.acune-empathy-map-image {padding-top:20%;}
+
+.acune-empathy-map-heading {color:#EF9BC3;
+padding-top:22%;}
+
+.acune-brand-and-identity-summary-heading {padding-top:65%;}
+
+.acune-final-logo-image {padding-top:20%;
+display: block;
+  margin-left: auto;
+  margin-right: auto;}
+
+.acune-logo-development-caption {color:white;
+padding-top:4%;}
+
+.acune-final-logo-caption {color:white;
+    padding-top:4%;
+    padding-left:27%;}
+    
+.acune-logo-heading {color:#FBDAEA;
+padding-top:7%;}
+
+.acune-graphics-image {padding-top:25%;}
+
+.acune-layout-image {padding-top:10%;
+display: block;
+  margin-left: auto;
+  margin-right: auto;}
+
+.acune-the-packaging-heading {padding-top:25%;
+color:#EF9BC3;}
+
+.acune-front-of-the-box-heading {color:black;}
+
+.acune-top-of-the-box-image {display: block;
+  margin-left: auto;
+  margin-right: auto;
+    width: 75%;}
+
+.acune-sides-of-the-box-heading {padding-top:40%;
+color:black;}
+
+.acune-sides-of-the-box-image {padding-top:20%;}
+
+.acune-the-labels-heading {padding-top:7%;
+color:#EF9BC3;}
+
+.acune-label-image {padding-bottom:7%;}
+
+
+/*A DESIGNERS GUIDE TO PRINT*/
+.print-book-hero-image {background:url(images/print-book-hero-image.png);
+background-size:cover;
+    background-repeat:no-repeat;
+padding-bottom:40%;}
+
+.print-book-competito-analysis-one {display: block;
+  margin-left: auto;
+  margin-right: auto;
+    width: 75%;}
+
+.print-book-brand-and-identity-summary-heading {padding-top:30%;
+color:black;}
+
+.print-book-colour-scheme-image {padding-top:10%;}
+
+.print-book-grids-heading {padding-top:10%;
+color:#FBDAEA;}
+
+.print-book-grid {display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(1, 1fr);}
+
+.print-book-grid-caption-one {grid-column: 1/ span 3;
+grid-row: 1/ span 1;
+color:white;
+padding-left:6%;
+padding-top:3%;}
+
+.print-book-grid-caption-two {grid-column: 4/ span 2;
+grid-row: 1/ span 1;
+padding-top:5%;
+color:white;}
+
+.print-book-layout-images {display: block;
+  margin-left: auto;
+  margin-right: auto;
+    width: 85%;
+padding-top:7%;
+padding-bottom:5%;}
+
+.print-book-the-final-book-heading {color:#EF9BC3;
+padding-top:5%;}
+
+.print-book-touchpoint-images {padding-top:5%;
+padding-bottom:10%;}
+
+
+/*FAC MICROSITE*/
+.fac-hero-image {background:url(images/fac-hero-image.png);
+background-size:cover;
+    background-repeat:no-repeat;
+padding-bottom:40%;}
+
+.fac-project-objectives-images {display: block;
+  margin-left: auto;
+  margin-right: auto;
+    width: 75%;}
+
+.fac-project-objectives-body {padding-left:20%;
+padding-right:20%;}
+
+.fac-competitor-analysis-one-body {color:black;
+padding-top:1%;}
+
+.fac-competitor-analysis-two-image-two {padding-top:10%;}
+
+.fac-visual-investigation-sub-titles {color:black;
+padding-top:7%;
+text-align: center;}
+
+.fac-visual-investigation-heading {color:black;
+padding-top:7%;
+text-align: right;}
+
+.fac-brainstorm-body {text-align: right;
+color:black;}
+
+.fac-site-map-image {padding-top:10%;}
+
+.fac-site-map-heading {padding-top:25%;
+color:#FBDAEA;}
+
+.fac-homepage-sub-heading {color:white;
+padding-top:12%;}
+
+.fac-wireframe-homepage-image {padding-top:15%;}
+
+.fac-events-page-sub-heading {padding-top:25%;
+color:white;}
+
+.fac-composition-sub-titles {color:white;
+text-align:center;
+padding-top:7%;}
+
+.fac-testing-results-percentages-one {color:black;
+text-align:center;
+grid-column: 1/ span 5;
+grid-row: 2/ span 5;}
+
+.fac-testing-results-percentages-two {color:white;
+text-align: center;
+grid-column: 1/ span 5;
+grid-row: 2/ span 5;}
+
+.fac-results-body-two {color:white;
+text-align: center;
+grid-column: 1/ span 5;
+grid-row: 3/ span 5;
+padding-left:7%;
+padding-right:7%;}
+
+.fac-results-body-one {color: black;
+text-align: center;
+grid-column: 1/ span 5;
+grid-row: 3/ span 5;
+padding-left:7%;
+padding-right:7%;}
+
+.fac-hexagon-results-grid {display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);}
+
+.fac-hexagon-images {grid-column: 1/ span 5;
+grid-row: 1/ span 5;}
+
+.fac-analysis-heading {padding-top:15%;
+color:black;}
+
+.fac-composition-homepage {padding-bottom:10%;}
+
+.fac-final-website-heading {padding-top:15%;
+color:black;}
+
+.fac-laptop-super-impose {padding-bottom:10%;
+    padding-top:10%;
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+    width: 75%;}
+
+/*JON BECK PHOTOGRAPHY*/
+.jon-beck-hero-image {background:url(images/jon-beck-hero-image.png);
+background-size:cover;
+    background-repeat:no-repeat;
+padding-bottom:40%;}
+
+.jon-beck-project-goals-body {color:white;}
+
+.jon-beck-competitor-analysis-images {padding-top:3%;}
+
+.jon-beck-persona-heading {padding-top:45%;
+color:#EF9BC3;}
+
+.jon-beck-persona-image {padding-top:15%;}
+
+.jon-beck-homepage-sub-heading {padding-top:10%;
+color:white;}
+
+.jon-beck-composition-body {color:white;
+padding-top:1%;}
+
+.jon-beck-pink-circle {display: block;
+  margin-left: auto;
+  margin-right: auto;
+    width: 75%;}
+
+.jon-beck-results-body {color: black;
+text-align: center;
+grid-column: 1/ span 5;
+grid-row: 3/ span 5;
+padding-left:15%;
+padding-right:15%;}
+
+.jon-beck-task-analysis {display: block;
+  margin-left: auto;
+  margin-right: auto;
+    width: 85%;}
+
+.jon-beck-task-analysis-key {display: block;
+  margin-left: auto;
+  margin-right: auto;
+    width: 85%;
+padding-top:5%;}
+
+.jon-beck-the-good-heading {padding-top:20%;
+color:black;}
+
+.jon-beck-final-website-heading {padding-top:20%;
+color:black;}
+
+/*LIFE FIT*/
+.life-fit-hero-image {background:url(images/life-fit-hero-image.png);
+background-size:cover;
+    background-repeat:no-repeat;
+padding-bottom:55%;}
+
+.life-fit-interview-questions {text-align: center;
+color: black;
+padding-top:1%;
+list-style-type: none;}
+
+.life-fit-interviews-heading {padding-top:7%;
+color:#EF9BC3;}
+
+.life-fit-persona-names {color:black;
+text-align: center;
+padding-top: 3%;}
+
+.life-fit-competitor-analysis-body {color:black;}
+
+.life-fit-kano-model {display: block;
+  margin-left: auto;
+  margin-right: auto;
+    width: 75%;}
+
+.life-fit-task-flow-diagrams {padding-top:5%;}
+
+.life-fit-onboarding-sub-heading {padding-top:20%;
+color:black}
+
+.life-fit-results-one-heading {color:white;
+padding-top:5%;}
+
+.life-fit-task-analysis-one-heading {color:white;
+padding-top:10%;}
+
+.life-fit-the-good-heading-one {color:white;
+padding-top:18%;}
+
+.life-fit-reccommendations-heading-one {padding-top:7%;
+color:white;}
+
+.life-fit-logo-development-image {padding-top: 20%;}
+
+.life-fit-the-app-heading {color:#FBDAEA;
+padding-top:7%;}
+
+.life-fit-the-good-title-two {color:black;
+    padding-top:17%;
+padding-bottom:1%;}
+
+.life-fit-prototype-button {display: block;
+  margin-left: auto;
+  margin-right: auto;
+width:35%;
+margin-top:15%;
+margin-bottom:10%;}
+
+a.life-fit-prototype-button:hover:after {width:0%;}
+
+a.life-fit-prototype-button:hover {color:white;
+background-color:#ea3293;
+border-color:#ea3293 }
+
+.life-fit-the-benefits-body {color:white;
+text-align: center;
+padding-top:3%;
+padding-left:10%;
+padding-right:10%;}
+
+.life-fit-the-featues-headings {color:white;
+text-align: center;
+padding:3%;}
+
+
+/*FUTURISM*/
+.futurism-hero-image {background:url(images/futurism-hero-image.png);
+background-size:cover;
+    background-repeat:no-repeat;
+padding-bottom:45%;}
+
+.futurism-the-problem-body {padding-bottom:10%;
+color:white;
+text-align: center;}
+
+.futurism-stakeholder-image {padding-top:12%;}
+
+.futurism-stakeholders-heading {padding-top:30%;
+color:#EF9BC3;}
+
+.futurism-empathy-map {padding-top:15%;
+padding-bottom:10%;}
+
+.futurism-empathy-maps-heading {color:#EF9BC3;
+padding-top:30%;}
+
+.futurism-journey-map {padding-top:8%;}
+
+.futurism-journey-map-heading {padding-top:15%;
+color:#EF9BC3;}
+
+.futurism-branding-heading-one {color:black;
+text-align: center;
+padding-top:7%;}
+
+.futurism-theme-heading {padding-top:5%;
+color:black;}
+
+.futurism-brainstorm-heading {padding-top:10%;
+color:black;}
+
+.futurism-visual-investigation-image-captions {color:black;
+padding-top:1%;
+padding-bottom:5%;}
+
+.futurism-publication-visual-investigation-images {padding-top:5%;}
+
+.futurism-branding-heading-two {text-align: center;
+padding-top:7%;
+color:#FBDAEA;}
+
+.futurism-colour-scheme {padding-top:7%;
+grid-column: 1/ span 6;
+grid-row: 1/ span 6;}
+
+.futurism-colour-scheme-grid-one {display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr);}
+
+.hashtag-ffffff {grid-column: 1/ span 5;
+grid-row: 2/ span 4;
+padding-left: 11%;
+padding-top:5%;
+color:black;}
+
+.hashtag-d4d9c6 {grid-column:4/ span 2;
+grid-row: 2/ span 4;
+padding-top:11%;
+    padding-left:36%;
+color:black}
+
+.hashtag-75a939 {color:white;
+grid-column:1/ span 5;
+grid-row: 5/ span 1;
+padding-left: 11%;
+    padding-top:5%;}
+
+.hashtag-2B411E {color:white;
+    grid-column:4/ span 2;
+grid-row: 5/ span 1;
+    padding-left: 45%;
+    padding-top:11%;}
+
+.hashtag-da7428 {grid-column: 1/ span 5;
+grid-row: 2/ span 4;
+padding-left: 11%;
+padding-top:5%;
+color:white;}
+
+.futurism-games-art-caption {color:white;
+grid-row: 3/ span 3;
+grid-column: 1/ span 5;
+padding-left:14%;}
+
+.hashtag-944236 {color:white;
+grid-column:4/ span 2;
+grid-row: 2/ span 6;
+padding-top:11%;
+    padding-left:40%;}
+
+.futurism-graphic-design-caption {color:white;
+grid-column:4/ span 3;
+grid-row: 3/ span 6;
+    padding-left:25%;}
+
+.futurism-photography-caption {color:white;
+    grid-column:1/ span 5;
+grid-row: 6/ span 1;
+padding-left:11%;}
+
+.hashtag-5f8e8d {color:white;
+     grid-column:4/ span 2;
+grid-row: 5/ span 1;
+    padding-left: 45%;
+    padding-top:11%;}
+
+.futurism-sound-caption {color:white;
+grid-column:5/ span 2;
+grid-row: 6/ span 1;
+padding-left:12%;}
+
+.futurism-theatre-caption {color:white;
+grid-row: 3/ span 3;
+grid-column: 1/ span 5;
+padding-left:17%;}
+
+.futurism-screen-caption {color:white;
+grid-column:5/ span 3;
+grid-row: 3/ span 6;
+    padding-left:10%;}
+
+.futurism-creative-writing-caption {color:white;
+    grid-column:1/ span 5;
+grid-row: 6/ span 1;
+padding-left:7%;}
+
+.futurism-strat-comms-caption {color:black;
+grid-column:4/ span 3;
+grid-row: 6/ span 1;
+    padding-left:30%;}
+    
+.hashtag-e4c638 {color:black;
+     grid-column:4/ span 2;
+grid-row: 5/ span 1;
+    padding-left: 43%;
+    padding-top:11%;}
+
+.futurism-colour-scheme-captions {color:white;
+padding-top:2%;
+  grid-column:1/ span 6;
+grid-row: 7/ span 1;}
+
+.futurism-graphics-heading {color:#FBDAEA;
+padding-top:30%;}
+
+.futurism-graphics {padding-top:10%;}
+
+.futurism-calendar-layout-images {padding-top:5%;}
+
+.futurism-the-calendar-pages-heading {padding-top:1%;
+color:white;}
+
+.futurism-the-contents-page-heading {color:white;
+padding-top:8%;}
+
+.futurism-the-publication-final-layout-images {padding-top:12%;}
+
+.futurism-website-images {padding-top:3%;
+padding-bottom:15%;}
+
+/*DRAWING*/
+.drawing-hero-image {background:url(images/drawing-hero-image.png);
+background-size:cover;
+    background-repeat:no-repeat;
+padding-bottom:45%;}
+
+.drawing-description {color:white;
+text-align: center;
+padding-top:10%;
+padding-bottom:10%;}
+
+.drawings-deterioration-series-heading {color:#EF9BC3;
+padding-top:5%;}
+
+.drawing-deterioration-images {padding-bottom:5%;}
+
+
+/*PHOTOGRAPHY*/
+.photography-hero-image {background:url(images/photography-hero-image.png);
+background-size:cover;
+    background-repeat:no-repeat;
+padding-bottom:45%;}
+
+
+
+
+
+
+
+
+
+.article-two-mobile {display:none;}
+
+.article-button-one-mobile {display: none;}
+
+.portrait-image-mobile {display:none;}
+
+
+/*MEDIA QUERIES*/
+/*1199px*/
+@media only screen and (max-width: 1199px){
+    .text-carousel {font-size:3em;}
+    
+    .projects-page-case-study-one-title {padding-top:0%;}}
+
+
+/*992px*/
+@media only screen and (max-width: 992px){
+
+    .home-page-arrow {padding-top:20px;}
+
+.text-carousel {font-size: 2.5em;}
+
+.tagline-text {font-size:1em;}
+    
+.call-to-action {font-size:1em;}
+
+a.call-to-action:hover:after {width:80%;}
+
+.portrait-image {display: block;
+  margin-left: auto;
+  margin-right: auto;}
+
+.grid {display:none;}
+
+.portrait-image-mobile {
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+padding-bottom:5%;}
+
+.the-designer-title {font-size:2em;
+text-align: center;
+padding-top:5%;
+    padding-bottom:5%;}
+
+.the-designer-body-text {font-size:1em;
+text-align:left;
+    padding-right:20%;
+padding-left:22%;}
+
+.the-designer-button {float:none;
+    margin-left: 38%;
+    margin-top:0%;
+    margin-bottom:7%;
+    font-size: 1em;
+    margin:auto;
+        display:flex;
+        justify-content: center;
+height: 45px;
+    width:150px;
+margin-bottom:10%;}
+
+    
+    a.projects-title-homepage {font-size:2em;
+    text-align: center;
+    padding-left:42%;
+    margin-left:0px;}
+
+.article-image-one {display: block;
+  margin-left: auto;
+  margin-right: auto;
+    margin-left:35%;
+    padding-bottom:2%;}
+    
+    .activity-headings {font-size:1.25em;}
+    
+    a.projects-page-case-study-one-title {text-align: center;
+    padding-left:22%;
+    padding-right:22%}
+    
+    .projects-page-case-study-one-body {font-size:1em;
+        padding-right:22%;
+padding-left:22%;
+    padding-top:1%;
+    text-align: center;}
+    
+    .article-button-one {display:none;}
+
+    .article-button-one-mobile {display: block;
+    font-family:bilo;
+    font-size:1em;
+        color:#79E0D8;
+    font-weight:600;
+    padding-bottom:10%;
+    padding-top:5%;}
+    
+    .black-rectangle-article {display:none;}
+    
+    .article-two-mobile {display: block;}
+    
+.FAC-laptop-superimpose {display: block;
+  margin-left: auto;
+  margin-right: auto;
+    margin-left:22%;
+    margin-bottom:3%;}
+
+    .projects-page-case-study-four-title {text-align: center;
+    padding-top:1%;}
+    
+    .article-body-text-two {color:black;
+    font-size:1em;
+        padding-right:22%;
+padding-left:22%;
+    padding-top:1%;
+    text-align: center;}
+    
+    .article-button-two {display: none;}
+
+    .phone-mockup-image {display: block;
+  margin-left: auto;
+  margin-right: auto;
+    margin-left:35%;
+    margin-bottom:0px;
+    padding-bottom:2%;}
+    
+    .more-projects-button {font-size: 1em;
+    margin-top:1%;}
+    
+    .home-page-article-three-title {margin-left:2%;}
+    
+    
+}
+
+/*767px*/
+@media only screen and (max-width: 767px){
+    
+ .text-carousel {font-size:2em;}
+    
+    div#myNavbar.collapse.navbar-collapse {padding-left:68%;}
+    
+    .home-page-arrow {display: none;}
+    
+    .tagline-text {padding-left:16%;
+        padding-right:20%;}
+    
+    a.call-to-action {margin-left:16%;}
+
+    
+}
+
+
+/*575px*/
+@media only screen and (max-width: 575px){
+.text-carousel {font-size:1.75em;}
+
+.tagline-text {font-size:1em;}
+
+}
+
+/*
+
+
+    
+
+
+
+
+.article-body-text-two {font-family:bilo;
+font-size:1.25em;
+color:white;
+font-weight:400;
+    padding-left:10%;}
+
+
+
+a.more-projects-button:hover:after {width:0%;}
+
+a.more-projects-button:hover {color:white;
+background-color:#ea3293;
+border-color:#ea3293 }
+
+.img-buttons:hover:after {width:0%;} */
