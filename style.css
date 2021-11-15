@@ -1288,7 +1288,8 @@ padding-top:5%;
 .the-designer-body-text {font-size:1em;
 text-align:left;
     padding-right:20%;
-padding-left:22%;}
+padding-left:22%;
+    text-align: center;}
 
 .the-designer-button {float:none;
     margin-left: 38%;
@@ -1302,17 +1303,12 @@ height: 45px;
     width:150px;
 margin-bottom:10%;}
 
-    
     a.projects-title-homepage {font-size:2em;
     text-align: center;
     padding-left:42%;
     margin-left:0px;}
 
-.article-image-one {display: block;
-  margin-left: auto;
-  margin-right: auto;
-    margin-left:35%;
-    padding-bottom:2%;}
+.article-image-one {padding-bottom:2%;}
     
     .activity-headings {font-size:1.25em;}
     
@@ -1340,29 +1336,18 @@ padding-left:22%;
     
     .article-two-mobile {display: block;}
     
-.FAC-laptop-superimpose {display: block;
-  margin-left: auto;
-  margin-right: auto;
-    margin-left:22%;
+.FAC-laptop-superimpose {
     margin-bottom:3%;}
-
-    .projects-page-case-study-four-title {text-align: center;
-    padding-top:1%;}
     
     .article-body-text-two {color:black;
     font-size:1em;
         padding-right:22%;
 padding-left:22%;
-    padding-top:1%;
-    text-align: center;}
+    padding-top:1%;}
     
     .article-button-two {display: none;}
 
-    .phone-mockup-image {display: block;
-  margin-left: auto;
-  margin-right: auto;
-    margin-left:35%;
-    margin-bottom:0px;
+    .phone-mockup-image {margin-bottom:0px;
     padding-bottom:2%;}
     
     .more-projects-button {font-size: 1em;
@@ -1396,6 +1381,23 @@ padding-left:22%;
 .text-carousel {font-size:1.75em;}
 
 .tagline-text {font-size:1em;}
+    
+    .the-designer-body-text {
+    padding-right:12%;
+padding-left:12%;}
+    
+    a.projects-page-case-study-one-title {padding-left:12%;
+    padding-right:12%}
+    
+    .projects-page-case-study-one-body {padding-right:12%;
+padding-left:12%;}
+    
+       a.projects-title-homepage {
+    padding-left:38%;}
+    
+        .article-body-text-two {
+        padding-right:12%;
+padding-left:12%;}
 
 }
 
