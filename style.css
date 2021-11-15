@@ -204,7 +204,9 @@ a.projects-title-homepage:hover::after {width:0px;}
     color:#79E0D8;
     font-weight:600;}
 
-.article-image-one {padding-bottom:15%;}
+.article-image-one {padding-left:0px;
+    padding-right:0px;
+    padding-bottom:15%;}
 
 .black-rectangle-article {background:url(images/black-rectangle-article.png);
 background-size:cover;
@@ -260,6 +262,12 @@ background-color:#ea3293;
 border-color:#ea3293 }
 
 .img-buttons:hover:after {width:0%;}
+
+.article-two-mobile {display:none;}
+
+.article-button-one-mobile {display: none;}
+
+.portrait-image-mobile {display:none;}
 
 
 /*PROJECTS PAGE*/
@@ -1237,14 +1245,9 @@ padding-bottom:45%;}
 
 
 
-
-
-
-.article-two-mobile {display:none;}
-
-.article-button-one-mobile {display: none;}
-
-.portrait-image-mobile {display:none;}
+.life-fit-the-final-app-mobile {display: none;;}
+.life-fit-deliverables-body {color: white;}
+.task-flow-diagrams-mobile {display: none;}
 
 
 /*MEDIA QUERIES*/
@@ -1252,7 +1255,20 @@ padding-bottom:45%;}
 @media only screen and (max-width: 1199px){
     .text-carousel {font-size:3em;}
     
-    .projects-page-case-study-one-title {padding-top:0%;}}
+    .projects-page-case-study-one-title {padding-top:0%;}
+    
+    .casestudy-nav-li a {font-size:1em;}
+    
+    li.casestudy-nav-li {padding-left:0px;}
+    
+    .body-text {font-size: 1.125em;}
+    
+    .life-fit-prototype-button {width:40%;}
+    
+    
+
+
+}
 
 
 /*992px*/
@@ -1355,6 +1371,63 @@ padding-left:22%;
     
     .home-page-article-three-title {margin-left:2%;}
     
+    .case-study-nav {display: none;}
+    
+    .life-fit-market-profile-one {padding-bottom:5%;}
+    
+    .body-text {font-size: 1em;}
+    
+    .process-headings {font-size:1.5em;}
+    
+    .go-to-top {display: none;}
+    
+    .task-flow-diagrams-desktop {display: none;}
+    
+    .task-flow-diagrams-mobile {display: block;}
+    
+    .sub-headings {font-size: 1.125em;}
+    
+    .waste-management-competitor-analysis-one-title {padding-bottom:2%;
+    margin-bottom: 0px;}
+    
+    .waste-management-brainstorm-heading {padding-bottom:0px;
+    margin-bottom:0px;}
+    
+    .life-fit-onboarding-sub-heading {padding-top:5%;
+    padding-bottom:0px;
+    margin-bottom: 0px;}
+    
+    .life-fit-task-flow-diagrams {padding-top:0px;}
+    
+    .life-fit-task-analysis-one {display:inline;}
+    
+    .life-fit-market-profile-heading {text-align:center;}
+    
+    .life-fit-the-good-heading-one {padding-top:15%;}
+    
+    .life-fit-task-analysis-one-heading {padding-top:30%;}
+    
+    .life-fit-reccommendations-body-one {padding-bottom:10%;}
+    
+    .life-fit-logo-development-image {padding-top: 3%;}
+    
+    .life-fit-the-good-title-two {padding-top:15%;}
+    
+    .life-fit-prototype-button {width:150px;}
+    
+    .life-fit-task-analysis-two-title {padding-top:30%;}
+    
+    
+    
+
+    
+    .case-study-main-title {font-size:2em;}
+    
+    .btn {font-size:1em;}
+    
+    .next-project-button {font-size:1em;}
+    
+
     
 }
 
@@ -1371,9 +1444,35 @@ padding-left:22%;
         padding-right:20%;}
     
     a.call-to-action {margin-left:16%;}
+    
+    .container {padding-left:50px;
+    padding-right:50px;}
+    
+    .life-fit-results-one {display:none;}
+    
+    .jon-beck-pink-circle {width:40%}
+    
+    .life-fit-the-benefits-body {padding-bottom:7%;
+    padding-top:3%;}
+    
+    .life-fit-the-benefits-title {text-align:center;
+        padding-bottom:3%;}
+        
+    .life-fit-the-featues-headings {padding-bottom:0px;
+    margin-bottom:0px;}
+    
+        .life-fit-prototype-button {margin-top:9%;
+    margin-bottom:0px;}
+    
+        .life-fit-final-logo-image {padding-top:10%;}
+    
+    .life-fit-the-final-app-desktop {display: none;}
+    
+    .life-fit-the-final-app-mobile {display: inline;}
+    }
 
     
-}
+
 
 
 /*575px*/
@@ -1398,29 +1497,34 @@ padding-left:12%;}
         .article-body-text-two {
         padding-right:12%;
 padding-left:12%;}
+    
+    .case-study-main-title {font-size:1.75em;}
 
 }
 
-/*
-
-
+/*450px*/
+@media only screen and (max-width: 450px){
+        .the-designer-body-text {
+    padding-right:5%;
+padding-left:5%;}
     
+     a.projects-page-case-study-one-title {padding-left:5%;
+    padding-right:5%}
+    
+    .projects-page-case-study-one-body {padding-right:5%;
+padding-left:5%;}
+    
+       a.projects-title-homepage {
+    padding-left:35%;}
+    
+        .article-body-text-two {
+        padding-right:5%;
+padding-left:5%;}
+    
+    .case-study-main-title {font-size:1em;}
+    
+}
 
+/*375px*/
+@media only screen and (max-width: 375px){}
 
-
-
-.article-body-text-two {font-family:bilo;
-font-size:1.25em;
-color:white;
-font-weight:400;
-    padding-left:10%;}
-
-
-
-a.more-projects-button:hover:after {width:0%;}
-
-a.more-projects-button:hover {color:white;
-background-color:#ea3293;
-border-color:#ea3293 }
-
-.img-buttons:hover:after {width:0%;} */
