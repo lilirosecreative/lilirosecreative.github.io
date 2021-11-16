@@ -1051,6 +1051,14 @@ padding-right:10%;}
 text-align: center;
 padding:3%;}
 
+.life-fit-logo-development-mobile {display: none;}
+
+.life-fit-the-final-app-mobile {display: none;}
+
+.life-fit-deliverables-body {color: white;}
+
+.task-flow-diagrams-mobile {display: none;}
+
 
 /*FUTURISM*/
 .futurism-hero-image {background:url(images/futurism-hero-image.png);
@@ -1244,10 +1252,7 @@ padding-bottom:45%;}
 
 
 
-.life-fit-logo-development-mobile {display: none;}
-.life-fit-the-final-app-mobile {display: none;;}
-.life-fit-deliverables-body {color: white;}
-.task-flow-diagrams-mobile {display: none;}
+
 
 
 /*MEDIA QUERIES*/
@@ -1264,6 +1269,10 @@ padding-bottom:45%;}
     .body-text {font-size: 1.125em;}
     
     .life-fit-prototype-button {width:40%;}
+    
+    .hidden-treasures-empathy-map-image {padding-top:15%;}
+    
+    .waste-management-empathy-map-questions {font-size: 1.125em;}
     
     
 
@@ -1419,13 +1428,45 @@ padding-left:22%;
     
       .life-fit-final-logo-image {padding-top:15%;}
     
-
-    
     .case-study-main-title {font-size:2em;}
     
     .btn {font-size:1em;}
     
     .next-project-button {font-size:1em;}
+    
+    .hidden-treasures-competitor-analysis-one-body {padding-top:1%;}
+    
+    .hidden-treasures-competitor-analysis-two-body {padding-top:1%;}
+    
+    .hidden-treasures-competitor-analysis-three-body {padding-top:1%;}
+    
+    .waste-management-empathy-map-questions {text-align: center;
+    list-style: none;}
+    
+    .hidden-treasures-persona-image {display: block;
+    margin-left:auto;
+    margin-right: auto;}
+    
+    .hidden-treasures-empathy-map-image {padding-top:3%;
+    padding-bottom:10%;}
+    
+    .hidden-treasures-visual-investigation-heading {padding-top:17%;}
+    
+    .hidden-treasures-brand-and-identity-summary-heading {padding-top:10%;}
+    
+    .hidden-treasures-brand-and-identity-summary-image {padding-top:2%;}
+    
+    .hidden-treasures-typography-heading {padding-top:25%;}
+    
+    .hidden-treasures-colour-heading {padding-top:10%;}
+    
+    .hidden-treasures-gaphics-heading {padding-top:15%;}
+    
+    .hidden-treasures-graphics-image {padding-top:45%;}
+    
+    .hidden-treasures-final-book-images {display: block;
+    margin-left:auto;
+    margin-right: auto;}
     
 
     
@@ -1456,14 +1497,13 @@ padding-left:22%;
     padding-top:3%;}
     
     .life-fit-the-benefits-title {text-align:center;
-        padding-bottom:3%;
-    padding-top:25%;}
+        padding-bottom:3%;}
         
     .life-fit-the-featues-headings {padding-bottom:0px;
     margin-top:0px;}
     
         .life-fit-prototype-button {margin-top:9%;
-    margin-bottom:25%;}
+    margin-bottom:50%;}
     
         .life-fit-final-logo-image {padding-top:10%;}
     
