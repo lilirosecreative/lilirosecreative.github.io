@@ -1252,8 +1252,8 @@ padding-bottom:45%;}
 
 
 
-
-
+.hidden-treasures-visual-investgation-mobile {display: none;}
+.hidden-treasures-competitor-analysis-three-caption-mobile {display: none;}
 
 /*MEDIA QUERIES*/
 /*1199px*/
@@ -1388,7 +1388,8 @@ padding-left:22%;
     
     .process-headings {font-size:1.5em;}
     
-    .go-to-top {display: none;}
+    .go-to-top {display:none;}
+    
     
     .task-flow-diagrams-desktop {display: none;}
     
@@ -1441,7 +1442,8 @@ padding-left:22%;
     .hidden-treasures-competitor-analysis-three-body {padding-top:1%;}
     
     .waste-management-empathy-map-questions {text-align: center;
-    list-style: none;}
+    list-style: none;
+    font-size: 1em;}
     
     .hidden-treasures-persona-image {display: block;
     margin-left:auto;
@@ -1454,7 +1456,11 @@ padding-left:22%;
     
     .hidden-treasures-brand-and-identity-summary-heading {padding-top:10%;}
     
-    .hidden-treasures-brand-and-identity-summary-image {padding-top:2%;}
+    .hidden-treasures-brand-and-identity-summary-image {padding-top:2%;
+        display: block;
+    margin-left:auto;
+    margin-right: auto;
+    }
     
     .hidden-treasures-typography-heading {padding-top:25%;}
     
@@ -1468,6 +1474,10 @@ padding-left:22%;
     margin-left:auto;
     margin-right: auto;}
     
+    .hidden-treasures-competitor-analysis-three-caption-desktop {display:none;}
+    
+    .hidden-treasures-competitor-analysis-three-caption-mobile {display: block;
+    text-align:center;}
 
     
 }
@@ -1518,6 +1528,44 @@ padding-left:22%;
     .life-fit-task-analysis-two-title {padding-top:7%;}
     
     .life-fit-the-good-title-two {padding-top:4%;}
+    
+    .hidden-treasures-case-study-nav {display:none;}
+    
+    .hidden-treasures-project-objectives-sections {display:none;}
+    
+    .hidden-treasures-visual-investigation-desktop {display:none;}
+    
+    .hidden-treasures-visual-investgation-mobile {display:block;}
+    
+    .hidden-treasures-visual-investigation-heading {padding-top:10%;}
+    
+    .hidden-treasures-visual-investigation-image {padding-top:5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;}
+    
+    .hidden-treasures-typography-heading {padding-top:7%;}
+    
+    .hidden-treasures-typography-image {padding-top:5%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;}
+    
+    .hidden-treasures-colour-scheme-image {padding-top:5%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;}
+    
+    .hidden-treasures-grids-section {display:none;}
+    
+    .hidden-treasures-image-qualities-image-one-caption {text-align: center;}
+    
+    .hidden-treasures-graphics-image {padding-top:5%;
+        display: block;
+    margin-right: auto;
+    margin-left: auto;}
+    
+    .hidden-treasures-layouts-mobile {display: none;}
     
     }
 
@@ -1577,6 +1625,8 @@ padding-left:5%;}
        .container {padding-left:40px;
     padding-right:40px;}
     
+
+    
     
 
     
@@ -1597,7 +1647,7 @@ padding-left:5%;}
 /*375px*/
 @media only screen and (max-width: 375px){
     
- 
+    .waste-management-empathy-map-questions {padding-bottom:3%;}
     
     
 }
