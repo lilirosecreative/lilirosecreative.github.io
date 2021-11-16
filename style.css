@@ -1244,7 +1244,7 @@ padding-bottom:45%;}
 
 
 
-
+.life-fit-logo-development-mobile {display: none;}
 .life-fit-the-final-app-mobile {display: none;;}
 .life-fit-deliverables-body {color: white;}
 .task-flow-diagrams-mobile {display: none;}
@@ -1417,7 +1417,7 @@ padding-left:22%;
     
     .life-fit-task-analysis-two-title {padding-top:30%;}
     
-    
+      .life-fit-final-logo-image {padding-top:15%;}
     
 
     
@@ -1469,6 +1469,15 @@ padding-left:22%;
     .life-fit-the-final-app-desktop {display: none;}
     
     .life-fit-the-final-app-mobile {display: inline;}
+    
+    .life-fit-task-analysis-one-heading {padding-top:7%;}
+    
+    .life-fit-the-good-heading-one {padding-top:7%;}
+    
+    .life-fit-task-analysis-two-title {padding-top:7%;}
+    
+    .life-fit-the-good-title-two {padding-top:4%;}
+    
     }
 
     
@@ -1499,6 +1508,11 @@ padding-left:12%;}
 padding-left:12%;}
     
     .case-study-main-title {font-size:1.75em;}
+    
+    .life-fit-kano-model {width: 100%;}
+    
+    .life-fit-final-logo-image {padding-top:3%;
+        width:60%;}
 
 }
 
@@ -1521,10 +1535,31 @@ padding-left:5%;}
         padding-right:5%;
 padding-left:5%;}
     
-    .case-study-main-title {font-size:1em;}
+       .container {padding-left:40px;
+    padding-right:40px;}
+    
+    
+
     
 }
 
+/*409px*/
+@media only screen and (max-width: 409px){
+    .life-fit-logo-development-mobile {display: block}
+    
+    .life-fit-logo-development-desktop {display: none;}
+
+}
+
+
+
+
+
 /*375px*/
-@media only screen and (max-width: 375px){}
+@media only screen and (max-width: 375px){
+    
+ 
+    
+    
+}
 
