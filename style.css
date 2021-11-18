@@ -486,20 +486,10 @@ color:white;}
 .old-recycling-posters { display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
-grid-column: 1/ span 10;
-grid-row: 1/ span 10}
+  width: 75%;}
 
 .image-caption-old-bin-signage {color:white;
-grid-column: 5/ span 10;
-grid-row: 1/ span 10;
-padding-left:4%;
-padding-top:4%;}
-
-.grid-murdoch-signage {display:grid;
-     grid-template-columns: repeat(10, 1fr);
-    grid-template-rows: repeat(10, 1fr);
-padding-bottom:4%;}
+text-align: center;}
 
 .waste-management-research-heading {;color:black;
 margin-bottom:0px;
@@ -1252,8 +1242,21 @@ padding-bottom:45%;}
 
 
 
+.print-book-brand-and-identity-summary-mobile {display: none;}
+.acune-the-sides-of-the-box-mobile {display: none;} 
+.acune-the-packaging-mobile {display: none;}
+.acune-brand-and-identity-summary-mobile {display: none;}
+.acune-competitor-analysis-image-mobile {display: none;}
+.acune-empathy-map-mobile {display:none;}
 .hidden-treasures-visual-investgation-mobile {display: none;}
 .hidden-treasures-competitor-analysis-three-caption-mobile {display: none;}
+.waste-management-empathy-map-mobile {display: none;}
+.waste-management-competitor-analysis-three-image-caption-mobile {display:none;}
+.waste-management-brand-and-identity-summary-mobile {display: none;}
+.waste-management-touchpoints-mobile {display: none;}
+.jon-beck-persona-mobile {display: none;}
+
+
 
 /*MEDIA QUERIES*/
 /*1199px*/
@@ -1274,8 +1277,11 @@ padding-bottom:45%;}
     
     .waste-management-empathy-map-questions {font-size: 1.125em;}
     
+    .acune-empathy-map-image {padding-top:30%;}
     
-
+    .waste-management-empathy-map-image-responsive {padding-top:30%;}
+    
+    .jon-beck-wireframe-homepage-image {padding-top:33%;}
 
 }
 
@@ -1390,7 +1396,6 @@ padding-left:22%;
     
     .go-to-top {display:none;}
     
-    
     .task-flow-diagrams-desktop {display: none;}
     
     .task-flow-diagrams-mobile {display: block;}
@@ -1479,7 +1484,153 @@ padding-left:22%;
     .hidden-treasures-competitor-analysis-three-caption-mobile {display: block;
     text-align:center;}
 
+    .acune-empathy-map-mobile {display: block;}
+   
+    .acune-empathy-map-desktop {display: none;}
     
+    .acune-empathy-map-image-mobile {padding-top:0px;}
+    
+    .acune-competitor-analysis-images {padding-bottom:1%;}
+    
+    .acune-competitor-analysis-image-mobile {display:block;
+    text-align:center;
+    padding-bottom:5%;
+    padding-left:15%;
+    padding-right: 15%;}
+    
+    .acune-competitor-analysis-image-desktop {display: none;}
+    
+    .acune-empathy-map-heading {padding-top:10%;}
+    
+    .acune-competitor-analysis-two-image-caption {text-align:center;
+    padding-left:15%;
+    padding-right:15%;}
+    
+    .acune-brainstorm-images {padding-top:1%;
+    padding-bottom:1%;}
+    
+    .acune-brand-and-identity-summary-desktop {display: none;}
+    
+    .acune-brand-and-identity-summary-mobile {display: block;}
+    
+    .acune-brand-and-identity-summary-heading {padding-top:10%;}
+    
+    .acune-brand-and-identity-summary-image {padding-top:0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;}
+    
+    .acune-brand-and-identity-summary-body {padding-top:1%;}
+    
+    .acune-graphics-heading {padding-top:10%;}
+    
+    .acune-graphics-image  {padding-top:50%;}
+    
+    .acune-label-image {display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 5%;}
+    
+    .print-book-persona-images {display: block;
+    margin-left: auto;
+    margin-right: auto;}
+    
+    .print-book-brainstorm-images {width:75%;}
+    
+    .print-book-brand-and-identity-summary-desktop {display: none;}
+    
+    .print-book-brand-and-identity-summary-mobile {display: block;}
+    
+    .print-book-brand-and-identity-summary-heading {padding-top:10%;}
+    
+    .print-book-brand-and-identity-summary-image {padding-top:2%;}
+    
+    .print-book-touchpoint-images {display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom:1%;}
+    
+    .waste-management-persona-images-mobile {display: block;
+    margin-left: auto;
+    margin-right: auto;}
+    
+    .waste-management-empathy-map-desktop {display: none;}
+    
+    .waste-management-empathy-map-mobile {display:block;}
+    
+    .waste-management-empathy-maps-heading {padding-top:10%;}
+    
+    .waste-management-empathy-map-image-responsive {padding-top:5%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;}
+    
+    .waste-management-competitor-analysis-images-mobile {display: block;
+    margin-right: auto;
+    margin-left: auto;}
+    
+    .waste-management-competitor-analysis-image-captions-mobile {text-align: center;}
+    
+    .waste-management-competitor-analysis-three-image {padding-bottom: 0px;
+    padding-top:0px;}
+    
+    .waste-management-competitor-analysis-three-image-caption-desktop {display: none;}
+    
+    .waste-management-competitor-analysis-three-image-caption-mobile {display: block;
+    padding-left:20%;
+    padding-right: 20%;
+    padding-top: 0px;}
+    
+    .waste-management-brand-and-identity-summary-desktop {display: none;}
+    
+    .waste-management-brand-and-identity-summary-mobile {display: block;}
+    
+    .waste-management-brand-and-identity-summary-heading {padding-top:10%;
+    padding-bottom:0px;}
+    
+    .waste-management-brand-and-identity-summary-mobile {padding-top:5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;}
+    
+    .waste-management-graphics-heading-mobile {padding-top:10%;}
+    
+    .waste-management-graphics-drawing-image-mobile {padding-top:0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;}
+    
+    .waste-management-graphics-recycling-image {padding-top:5%;}
+    
+    .waste-management-landfill-poster-image-mobile {width: 60%;
+    padding-top:0px;}
+    
+    .waste-management-touchpoints-desktop {display: none;}
+    
+    .waste-management-touchpoints-mobile {display: block;}
+    
+    .waste-management-touchpoints-heading-mobile {padding-top:10%;}
+    
+    .waste-management-recycling-poster-image-mobile {padding-top:5%;}
+    
+    .waste-management-student-portal-title {padding-top:0px;}
+    
+    .student-portal-touchpoint-image-mobile {width:75%;
+    padding-top:1%;}
+    
+    .jon-beck-persona-mobile {display: block;}
+    
+    .jon-beck-persona-desktop {display: none;}
+    
+    .jon-beck-persona-heading {padding-top:10%;}
+    
+    .jon-beck-persona-image {padding-top:0px;
+    padding-bottom:10%;}
+    
+    .jon-beck-visual-investogation {display: block;
+    margin-left: auto;
+    margin-right: auto;}
+
 }
 
 /*767px*/
@@ -1567,7 +1718,104 @@ padding-left:22%;
     
     .hidden-treasures-layouts-mobile {display: none;}
     
-    }
+    .acune-typography-heading {padding-top:5%;}
+    
+    .acune-colour-image {padding-top:3%;
+     display: block;
+    margin-right: auto;
+    margin-left: auto;}
+    
+    .acune-logo-development-mobile {display: none;}
+    
+    .acune-logo-development-images {padding-top:5%;
+        display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width:75%;}
+    
+    .acune-logo-development-caption {text-align: center;}
+    
+    .acune-final-logo-caption {text-align: center;
+    padding-left: 0px;}
+    
+    .acune-final-logo-image {  display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top:30%;}
+    
+    .acune-graphics-image {display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 75%;
+    padding-top: 3%;
+    padding-bottom: 5%;}
+    
+    .acune-layout-image {padding-top: 5%;
+    padding-bottom:5%;}
+    
+    .acune-the-packaging-desktop {display:none;}
+    
+    .acune-the-packaging-mobile {display:block;}
+    
+    .acune-front-of-the-box-image {display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 60%;
+    padding-top:1%;}
+    
+    .acune-the-packaging-heading {padding-top:10%;}
+    
+  
+    .acune-the-sides-of-the-box-mobile {display: block;}
+    
+    .acune-the-sides-of-the-box-desktop {display: none;
+   }
+    
+    .acune-sides-of-the-box-heading {padding-top: 5%;}
+    
+    .acune-sides-of-the-box-image {padding-top:2%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;}
+
+    .print-book-typography-heading  {padding-top:10%;}
+    
+    .print-book-typography-image {display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top:5%;}
+    
+    .print-book-colour-scheme-image {display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top:5%;}
+
+    .print-book-grid {display:none;}
+    
+    .print-book-layout-images {width: 75%;
+    padding-bottom:10%;}
+    
+     .waste-management-colour-heading-mobile {padding-top: 10%;}
+    
+    .waste-management-colour-scheme-image-mobile {display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top:3%;}
+    
+    .waste-management-typography-image-mobile {display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left:10%;
+    padding-top:3%;}
+    
+    .waste-management-layout-drawing-image-mobile {width: 60%;}
+    
+    .waste-management-food-containers-images-mobile {width: 75%;
+    padding-bottom: 5%;}
+
+    
+    
+}
 
     
 
@@ -1599,6 +1847,22 @@ padding-left:12%;}
     .case-study-main-title {font-size:1.75em;}
     
     .life-fit-kano-model {width: 100%;}
+    
+        .waste-management-empathy-map-questions {padding-bottom:3%;
+    text-align: left;
+    list-style:disc;
+    padding-left:0px;
+    margin-left:0px;}
+    
+    .acune-top-and-bottom-of-the-box-heading {padding-top:20%;}
+    
+    .acune-the-labels-heading {padding-top:20%;}
+    
+    
+    
+    }
+
+
     
 
 }
@@ -1637,6 +1901,8 @@ padding-left:5%;}
     .life-fit-logo-development-mobile {display: block}
     
     .life-fit-logo-development-desktop {display: none;}
+    
+    .waste-management-typography-image-mobile {padding-left:30%;}
 
 }
 
@@ -1646,8 +1912,6 @@ padding-left:5%;}
 
 /*375px*/
 @media only screen and (max-width: 375px){
-    
-    .waste-management-empathy-map-questions {padding-bottom:3%;}
     
     
 }
