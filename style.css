@@ -964,7 +964,7 @@ padding-top:5%;}
 .jon-beck-the-good-heading {padding-top:20%;
 color:black;}
 
-.jon-beck-final-website-heading {padding-top:20%;
+.jon-beck-final-website-heading {padding-top:25%;
 color:black;}
 
 /*LIFE FIT*/
@@ -1100,102 +1100,8 @@ color:#FBDAEA;}
 grid-column: 1/ span 6;
 grid-row: 1/ span 6;}
 
-.futurism-colour-scheme-grid-one {display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(6, 1fr);}
-
-.hashtag-ffffff {grid-column: 1/ span 5;
-grid-row: 2/ span 4;
-padding-left: 11%;
-padding-top:5%;
-color:black;}
-
-.hashtag-d4d9c6 {grid-column:4/ span 2;
-grid-row: 2/ span 4;
-padding-top:11%;
-    padding-left:36%;
-color:black}
-
-.hashtag-75a939 {color:white;
-grid-column:1/ span 5;
-grid-row: 5/ span 1;
-padding-left: 11%;
-    padding-top:5%;}
-
-.hashtag-2B411E {color:white;
-    grid-column:4/ span 2;
-grid-row: 5/ span 1;
-    padding-left: 45%;
-    padding-top:11%;}
-
-.hashtag-da7428 {grid-column: 1/ span 5;
-grid-row: 2/ span 4;
-padding-left: 11%;
-padding-top:5%;
-color:white;}
-
-.futurism-games-art-caption {color:white;
-grid-row: 3/ span 3;
-grid-column: 1/ span 5;
-padding-left:14%;}
-
-.hashtag-944236 {color:white;
-grid-column:4/ span 2;
-grid-row: 2/ span 6;
-padding-top:11%;
-    padding-left:40%;}
-
-.futurism-graphic-design-caption {color:white;
-grid-column:4/ span 3;
-grid-row: 3/ span 6;
-    padding-left:25%;}
-
-.futurism-photography-caption {color:white;
-    grid-column:1/ span 5;
-grid-row: 6/ span 1;
-padding-left:11%;}
-
-.hashtag-5f8e8d {color:white;
-     grid-column:4/ span 2;
-grid-row: 5/ span 1;
-    padding-left: 45%;
-    padding-top:11%;}
-
-.futurism-sound-caption {color:white;
-grid-column:5/ span 2;
-grid-row: 6/ span 1;
-padding-left:12%;}
-
-.futurism-theatre-caption {color:white;
-grid-row: 3/ span 3;
-grid-column: 1/ span 5;
-padding-left:17%;}
-
-.futurism-screen-caption {color:white;
-grid-column:5/ span 3;
-grid-row: 3/ span 6;
-    padding-left:10%;}
-
-.futurism-creative-writing-caption {color:white;
-    grid-column:1/ span 5;
-grid-row: 6/ span 1;
-padding-left:7%;}
-
-.futurism-strat-comms-caption {color:black;
-grid-column:4/ span 3;
-grid-row: 6/ span 1;
-    padding-left:30%;}
-    
-.hashtag-e4c638 {color:black;
-     grid-column:4/ span 2;
-grid-row: 5/ span 1;
-    padding-left: 43%;
-    padding-top:11%;}
-
 .futurism-colour-scheme-captions {color:white;
-padding-top:2%;
-  grid-column:1/ span 6;
-grid-row: 7/ span 1;}
+padding-top:2%;}
 
 .futurism-graphics-heading {color:#FBDAEA;
 padding-top:30%;}
@@ -1241,7 +1147,7 @@ padding-bottom:45%;}
 
 
 
-
+.jon-beck-wireframe-mobile {display: none;}
 .print-book-brand-and-identity-summary-mobile {display: none;}
 .acune-the-sides-of-the-box-mobile {display: none;} 
 .acune-the-packaging-mobile {display: none;}
@@ -1255,7 +1161,18 @@ padding-bottom:45%;}
 .waste-management-brand-and-identity-summary-mobile {display: none;}
 .waste-management-touchpoints-mobile {display: none;}
 .jon-beck-persona-mobile {display: none;}
-
+.jon-beck-final-website-image {padding-top:10%;}
+.jon-beck-compositions {padding-bottom:10%;}
+.jon-beck-final-website-mobile {display: none;}
+.fac-wireframes-mobile {display: none;}
+ .fac-the-final-website-mobile {display: none;}
+.futurism-stakeholders-mobile {display: none;}
+   .futurism-journey-map-mobile {display: none;}
+.futurism-branding-visual-investigation-mobile {display:none;}
+.about-description-mobile {display: none;}
+.projects-page-button-mobile {display: none;}
+.projects-page-image-two-mobile {display: none;}
+.projects-black-articles-mobile {display: none;}
 
 
 /*MEDIA QUERIES*/
@@ -1263,7 +1180,7 @@ padding-bottom:45%;}
 @media only screen and (max-width: 1199px){
     .text-carousel {font-size:3em;}
     
-    .projects-page-case-study-one-title {padding-top:0%;}
+    .projects-page-case-study-one-title {padding-top:5%;}
     
     .casestudy-nav-li a {font-size:1em;}
     
@@ -1282,6 +1199,12 @@ padding-bottom:45%;}
     .waste-management-empathy-map-image-responsive {padding-top:30%;}
     
     .jon-beck-wireframe-homepage-image {padding-top:33%;}
+    
+    .fac-wireframe-homepage-image-responsive {padding-top:25%;}
+    
+    .fac-final-website-image {padding-top: 20%;}
+    
+     .vl {height:340px;}
 
 }
 
@@ -1299,28 +1222,23 @@ padding-bottom:45%;}
 
 a.call-to-action:hover:after {width:80%;}
 
-.portrait-image {display: block;
-  margin-left: auto;
-  margin-right: auto;}
-
-.grid {display:none;}
-
-.portrait-image-mobile {
-display: block;
-  margin-left: auto;
-  margin-right: auto;
-padding-bottom:5%;}
-
 .the-designer-title {font-size:2em;
 text-align: center;
 padding-top:5%;
     padding-bottom:5%;}
 
 .the-designer-body-text {font-size:1em;
-text-align:left;
     padding-right:20%;
 padding-left:22%;
     text-align: center;}
+    
+    .grid {display:none;}
+
+.portrait-image-mobile {
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+padding-bottom:5%;}
 
 .the-designer-button {float:none;
     margin-left: 38%;
@@ -1345,7 +1263,8 @@ margin-bottom:10%;}
     
     a.projects-page-case-study-one-title {text-align: center;
     padding-left:22%;
-    padding-right:22%}
+    padding-right:22%;
+    padding-top:0px;}
     
     .projects-page-case-study-one-body {font-size:1em;
         padding-right:22%;
@@ -1353,7 +1272,7 @@ padding-left:22%;
     padding-top:1%;
     text-align: center;}
     
-    .article-button-one {display:none;}
+    .article-button-one-desktop {display:none;}
 
     .article-button-one-mobile {display: block;
     font-family:bilo;
@@ -1363,7 +1282,7 @@ padding-left:22%;
     padding-bottom:10%;
     padding-top:5%;}
     
-    .black-rectangle-article {display:none;}
+    .black-rectangle-article-index {display:none;}
     
     .article-two-mobile {display: block;}
     
@@ -1376,7 +1295,7 @@ padding-left:22%;
 padding-left:22%;
     padding-top:1%;}
     
-    .article-button-two {display: none;}
+    .article-button-two-desktop {display: none;}
 
     .phone-mockup-image {margin-bottom:0px;
     padding-bottom:2%;}
@@ -1630,11 +1549,129 @@ padding-left:22%;
     .jon-beck-visual-investogation {display: block;
     margin-left: auto;
     margin-right: auto;}
+    
+    .acune-sides-of-the-box-heading {padding-top:20%;}
+    
+    .jon-beck-wireframe-homepage-image {display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top:1%;}
+    
+    .jon-beck-wireframe-mobile {display: block;}
+    
+     .jon-beck-wireframe-desktop {display: none;}
+    
+    .jon-beck-homepage-sub-heading {padding-left:2%;
+    padding-top:5%;}
+    
+    .jon-beck-wireframes-body {padding-left:2%;}
+    
+    .jon-beck-task-analysis-heading {padding-top:35%;}
+    
+    .jon-beck-final-website-image {padding-top:15%;}
+    
+    .fac-market-profile-heading {text-align: center;}
 
+    .fac-market-profile-image {display: block;
+    margin-left: auto;
+    margin-right: auto;}
+    
+    .fac-market-profile-image-two {padding-top:3%;}
+    
+    .fac-site-map-heading {padding-top:10%;}
+    
+    .fac-site-map-image {padding-top:3%;}
+
+    .fac-wireframe-homepage-image-responsive {padding-top:3%;}
+    
+    .fac-wireframes-desktop {display: none;}
+    
+    .fac-wireframes-mobile {display: block;}
+    
+    .fac-homepage-sub-heading {padding-top:5%;}
+    
+    .fac-events-page-sub-heading {padding-top:5%;}
+    
+    .fac-the-good-heading {text-align: left;
+    padding-top:5%;}
+    
+    .futurism-stakeholders-mobile {display: block;}
+ 
+    .futurism-stakeholders-desktop {display: none;}
+    
+    .futurism-stakeholder-image {padding-top:5%;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;}
+    
+    .futurism-stakeholders-heading {padding-top:10%;}
+    
+    .futurism-empathy-maps-heading {padding-top:10%;}
+    
+    .futurism-empathy-map {padding-top:3%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;}
+    
+    .futurism-journey-map-mobile {display: block;}
+    
+    .futurism-journey-map-desktop {display: none;}
+    
+    .futurism-journey-map-heading {padding-top:5%;}
+    
+    .futurism-journey-map {padding-top:3%;}
+    
+    .futurism-publication-brainstorm {display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top:3%;}
+    
+    .about-body-one {padding-top:15%;}
+
+    .vl {height:325px;}
+    
+    a.projects-page-case-study-one-title-responsive{text-align: left;
+    padding-left: 0px;
+    padding-top:8%;}
+    
+    .projects-page-case-study-one-body-responsive {text-align: left;
+    padding-left: 0px;
+    padding-right: 0px;}
+    
+    .projects-page-article-button-one {padding-top:5%;
+    margin-left:0px;}
+    
+    .projects-page-case-study-two-title  {padding-left: 0px;
+    padding-top:20%;}
+    
+    .projects-page-grid-one {padding-top:10%;}
+    
+    .projects-page-image-three {padding-top: 15%;}
+    
+    
+    .article-body-text-white-projects-page {color:white;
+    padding-left:10%;
+    padding-right: 0px;}
+    
+    .projects-page-image-four {padding-top:20%;}
+    
+    .projects-article-image-five {padding-top:10%;}
 }
 
 /*767px*/
 @media only screen and (max-width: 767px){
+    
+    .the-designer-body-text {
+    padding-right:18%;
+padding-left:18%;}
+    
+        a.projects-page-case-study-one-title {
+    padding-left:18%;
+    padding-right:18%;}
+    
+    .projects-page-case-study-one-body {
+        padding-right:18%;
+padding-left:18%;}
     
  .text-carousel {font-size:2em;}
     
@@ -1812,10 +1849,174 @@ padding-left:22%;
     
     .waste-management-food-containers-images-mobile {width: 75%;
     padding-bottom: 5%;}
+    
+    .jon-beck-project-goals {display: none;}
 
+    .jon-beck-compositions {display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom:0px;}
     
+    .jon-beck-task-analysis-heading {text-align: center;
+    padding-top:10%;}
     
+    .jon-beck-task-analysis {display: block;
+    margin-left: auto;
+    margin-right: auto;}
+    
+    .jon-beck-task-analysis-key {display: block;
+    margin-left: auto;
+    margin-right: auto;}
+    
+    .jon-beck-the-good-heading {padding-top:7%;}
+    
+    .jon-beck-the-bad-heading {padding-top:7%;}
+    
+    .jon-beck-final-website-image {display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top:5%;}
+    
+    .jon-beck-final-website-desktop {display: none;}
+    
+    .jon-beck-final-website-mobile {display:block}
+    
+    .jon-beck-final-website-heading {padding-top:10%;}
+    
+    .fac-project-objectives {display: none;}
+    
+    .fac-events-composition-image {padding-bottom:10%;}
+    
+    .fac-the-results {display: none;}
+    
+    .fac-analysis-heading {text-align: center;
+    padding-top:5%;}
+    
+    .fac-aesthetic-based-questions-body {text-align: center;}
+    
+    .fac-the-final-website-desktop {display: none;}
+    
+    .fac-the-final-website-mobile {display: block;}
+    
+    .fac-final-website-heading {padding-top:10%;}
+    
+    .fac-final-website-image {padding-top:0px;}
+    
+    .fac-website-button {margin-bottom:10%;}
+    
+        .futurism-branding-visual-investigation-desktop {display: none}
+    
+    .futurism-branding-visual-investigation-mobile {display: block;}
+    
+    .futurism-branding-visual-investigation-image {display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top:3%;}
+    
+    .futurism-publication-visual-investigation-images {display: block;
+    margin-left: auto;
+        margin-right: auto;}
+    
+    .futurism-publication-visual-investigation-captions {text-align: center;}
+    
+    .futurism-primary-colour-scheme {display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top:3%;}
+    
+    .futurism-primary-colour-scheme-caption {text-align: center;}
+    
+    .futurism-graphics-heading {padding-top:10%;}
+    
+    .futurism-graphics {display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top:0px;}
+    
+    .futurism-calendar-layout-images {display: block;
+    margin-left: auto;
+    margin-right: auto;}
+    
+    .futurism-the-publication-final-layout-images {display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top:3%;}
+    
+    .futurism-website-images {padding-top:3%;
+    padding-bottom:3%;}
+    
+    .about-image-one {display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top:0px;}
+    
+    .about-body-one {text-align: center;
+    padding-top: 10%;}
+    
+    .about-description-mobile {display: block;}
+    
+    .about-description-desktop {display: none;}
+    
+    .vl {display: none;}
+    
+    .about-contact-information {text-align: right;}
+    
+    a.projects-page-case-study-one-title-responsive {padding-top:0px;}
+    
+    .projects-page-case-study-one-body-responsive {text-align: center;
+    padding-left:10%;
+    padding-right:10%;}
+    
+    .projects-page-article-button-one {display: none;}
+    
+    .projects-page-button-mobile {display: block;
+    text-align: center;
+    margin-left:0px;
+    padding-top:5%;
+    padding-bottom:5%;}
+    
+    a.projects-page-case-study-one-title-responsive {text-align: center;}
+
+    .projects-page-grid-one {display: none;}
+    
+    .projects-page-image-two-mobile {display:inline;
+    padding-right:0px;
+    padding-top:10%;}
+    
+    .projects-page-case-study-two-title {padding-top:3%;
+        padding-left:10%;
+        padding-right:10%;
+    text-align: center;}
+    
+    .projects-black-articles-desktop {display:none;}
+    
+    .article-body-text-white-projects-page {color: black;
+    padding-left:15%;
+    padding-right:15%;}
+    
+    a.projects-page-case-study-four-title {color:black;
+    padding-top:0px;
+    padding-left: 0px;}
+    
+    a.projects-page-case-study-six-title {padding-left:0px;
+    padding-right:0px;
+    text-align: center;}
+
+    .projects-black-articles-mobile {display: block;}
+
+    a.projects-page-drawing-title {padding-left:43%;}
+    
+    a.projects-article-ten-title {padding-left:13%;}
+    
+    .article-ten-button {padding-bottom:20%;
+    padding-right:0px;}
 }
+    
+    
+    
+    
+    
+
 
     
 
@@ -1858,26 +2059,44 @@ padding-left:12%;}
     
     .acune-the-labels-heading {padding-top:20%;}
     
+       a.projects-page-case-study-one-title {
+    padding-left:15%;
+    padding-right:15%;}
     
+    .projects-page-case-study-one-body {
+        padding-right:10%;
+padding-left:10%;}
+    
+    a.projects-page-drawing-title {padding-left:40%;}
+    
+    .projects-page-case-study-one-body-responsive {text-align: center;
+    padding-left:5%;
+    padding-right:5%;}
+    
+        .article-body-text-white-projects-page {color: black;
+    padding-left:5%;
+    padding-right:5%;}
+    
+      a.projects-page-drawing-title {padding-left:40%;}
     
     }
 
 
     
 
-}
+
 
 /*450px*/
 @media only screen and (max-width: 450px){
-        .the-designer-body-text {
-    padding-right:5%;
-padding-left:5%;}
+        p.the-designer-body-text {
+    padding-right:0px;
+padding-left:0px;}
     
-     a.projects-page-case-study-one-title {padding-left:5%;
-    padding-right:5%}
+     a.projects-page-case-study-one-title {padding-left:0px;
+    padding-right:0px;}
     
-    .projects-page-case-study-one-body {padding-right:5%;
-padding-left:5%;}
+    .projects-page-case-study-one-body {padding-right:0px;
+padding-left:0px;}
     
        a.projects-title-homepage {
     padding-left:35%;}
@@ -1889,6 +2108,10 @@ padding-left:5%;}
        .container {padding-left:40px;
     padding-right:40px;}
     
+    .tagline-text {padding-right:0px;}
+    
+     a.projects-page-drawing-title {padding-left:38%;}
+
 
     
     
