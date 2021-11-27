@@ -208,7 +208,7 @@ a.projects-title-homepage:hover::after {width:0px;}
     padding-right:0px;
     padding-bottom:15%;}
 
-.black-rectangle-article {background:url(images/black-rectangle-article.png);
+.black-rectangle-article-index {background:url(images/black-rectangle-article.png);
 background-size:cover;
     background-repeat:no-repeat;
 padding-bottom:3%;
@@ -1146,7 +1146,6 @@ padding-bottom:45%;}
 
 
 
-.text-black {color:black;}
 .jon-beck-wireframe-mobile {display: none;}
 .print-book-brand-and-identity-summary-mobile {display: none;}
 .acune-the-sides-of-the-box-mobile {display: none;} 
